@@ -1,0 +1,13 @@
+.wraptocenter {
+	display: block;
+    margin: 0 auto;
+}
+.wraptocenter * {
+  vertical-align: middle;
+}
+
+span.centerImage {
+     text-align: center;
+     display: block;
+     margin: 0 auto;
+}

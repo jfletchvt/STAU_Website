@@ -1,0 +1,405 @@
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="icon" href="img/favicon.ico">
+
+	
+	<title>STAU - Small Things Add Up</title>
+
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/carousel.css">	
+	<link rel="stylesheet" type="text/css" href="css/social-icons.css">
+	<script type="text/javascript">
+	  function normalizeImageRow() {
+	    var maxHeight = -1;
+
+ 		$('.sponsor').each(function() {
+          maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+   		});
+
+   		$('.sponsor').each(function() {
+   		  var margin = (maxHeight - $(this).height()) / 2;
+		  $(this).css( "margin-top", margin+'px' );
+   		});
+	  }
+  </script>
+</head>
+<body style="">
+	<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+
+	<section class="section-home">
+
+		<div class="section-inner">
+			<header>
+				<!-- 
+				<img class="logo" src="img/logo2.png" alt="VTHacks">
+				
+				<div class="header-info" style="height: 71px; top: -86px;">
+					<span class="header-location" style="display: inline; right: 725.5px;"> 
+						ST
+					</span>
+
+					<span class="header-date" style="display: inline; left: 725.5px;">
+						AU
+					</span>
+
+				</div> 
+				<div>
+			      <a class="btn btn-default btn-lg" style="background:none; color:#EFEFEF; border-radius:2px;" href="#form-row">Small Things Add Up</a>
+				</div>-->
+
+				<!-- <div class="social">
+					<a href="http://www.facebook.com/vthacks">
+						<img class="facebook" src="img/fblogo.png" alt="Facebook">
+					</a>
+					<a href="http://www.twitter.com/VT_Hacks">
+						<img class="twitter" src="img/twitterlogo.png" alt="Twitter">
+					</a>
+				</div> -->
+			</header>
+		</div>
+
+	</section>
+
+	<section class="section-intro" id="intro">
+
+<!--   <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+
+        <div class="navbar-header" >
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">STAU</a>
+        </div>
+
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav> -->
+
+		<div class="container">
+			  <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-3">
+          <h2>Zawad</h2>
+          <br>
+          <img class="img-circle" alt="Zawad" style="width: 200px; height: 200px;" src="img/Z.jpg">
+          
+          <!-- <p>Hello World!<br> I am a Sophomore at Virginia Tech pursuing a Bachelor's Degree in Computer Engineering. I was born and raised in Sterling, Virginia which falls under the category of "NOVA" or Northern Virginia. Some of my interests include running, Tae Kwon Do, and taking part in sports in general. My friends and I have created this web page in an effort to develop and deliever our brand.</p> -->
+          <p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#zawadModal">PROFILE »</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+        	<h2>Vishal</h2>
+        	<br>
+          <img class="img-circle" alt="Vishal" style="width: 200px; height: 200px;" src="img/V.jpg">
+          <p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#vishalModal">PROFILE »</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+        	<h2>Joe</h2>
+        	<br>
+          <img class="img-circle" alt="Joe" style="width: 200px; height: 200px;" src="img/J.jpg">
+          <p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#joeModal">PROFILE »</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+        	<h2>Shawn</h2>
+        	<br>
+          <img class="img-circle" alt="Shawn" style="width: 200px; height: 200px;" src="img/S.jpg">
+          <p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#shawnModal">PROFILE »</a></p>
+        </div><!-- /.col-lg-3 -->
+      </div><!-- /.row -->
+
+		</div>
+
+	</section>
+
+
+      <!-- Modal's -->
+      <!-- Zawad's Modal -->
+      <div id="zawadModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title" id="myModalLabel" style="font-size:40px;">Zawad Chowdhury</h4>
+            </div>
+            <div class="modal-body">
+              <div class="row featurette">
+                <div class="col-md-5">
+                  <img src="img/zawadProf.png" class="img">
+                </div>   
+                <div class="col-md-7">
+                 <h4 class="lead" style="font-size:30px;">About:</h4>
+                 <p class="lead" >I am a Sophomore at Virginia Tech pursuing a Bachelor's Degree in Computer Engineering. I was born and raised in Sterling, Virginia which falls under the category of "NOVA" or Northern Virginia. Some of my interests include running, olympic taekwondo, and taking apart in sports in general. My friends and I have created this web page in an effort to develop and deliever our brand.</p>
+                 <h4 class="lead" style="font-size:30px;">Articles:</h4>
+                 <p class="lead"><a href="http://www.saseconnect.org/news/saseprints/153-saseprints-spotlight-zawad-chowdhury" onclick="window.open(this.href); return false;">SASEPrints Spotlight</a></p>
+               </div>
+             </div>
+             <div class="modal-footer">
+              <a type="button" class="btn btn-primary"href="resumes/zawadResume.pdf" onclick="window.open(this.href); return false;">My Resume »</a>
+            </div>
+
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div>
+    </div>
+
+    <!-- Vishal's Modal -->
+    <div id="vishalModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel" style="font-size:40px;">Vishal Sangam</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row featurette">
+              <div class="col-md-5">
+                <img src="img/vishalProf.png" class="img">
+              </div>   
+              <div class="col-md-7">
+               <h4 class="lead" style="font-size:30px;">About:</h4>
+               <p class="lead">I am Sophomore at Virginia Tech majoring in Mechanical Engineering. In the past, I have taking on varsity sports while being academically successful, and actively involved in clubs. My objective as of now is to gain experience designing, collaborating, and working hands on as an intern or Co-op while also perusing my mechanical engineering Degree. Finally, my ambition and dream is to help play a role in creating the future technology of this world.</p>
+             </div>
+           </div>
+           <div class="modal-footer">
+            <a type="button" class="btn btn-primary"href="resumes/vishalResume.pdf" onclick="window.open(this.href); return false;"> My Resume »</a>
+          </div>
+
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+  </div>
+  
+  <!-- Joe's Modal -->
+  <div id="joeModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title" id="myModalLabel" style="font-size:40px;">Joe Fletcher</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row featurette">
+            <div class="col-md-5">
+              <img src="img/joeSHPE.jpg" class="img">
+            </div>   
+            <div class="col-md-7">
+             <h4 class="lead" style="font-size:30px;">About:</h4>
+             <p class="lead">My name is Joe Fletcher and I am a rising Senior at Virginia Tech majoring in Computer Science and minoring in Mathematics. I am a technology fanatic, die-hard Hokie, and excited for the incredible opportunities the world has to offer!</p>
+             <h4 class="lead" style="font-size:30px;">Articles:</h4>
+             <p class="lead"><a href="http://googleforstudents.blogspot.com/2014/05/announcing-2014-generation-google.html" onclick="window.open(this.href); return false;">Google Generation Scholarship Recipient</a></p>
+             <p class="lead"><a href="http://www.vturcs.cs.vt.edu/spring.php" onclick="window.open(this.href); return false;">Third Place - VTURCS Spring 2015</a></p>
+             <p class="lead"><a href="http://www.eng.vt.edu/students/featured/joe-fletcher" onclick="window.open(this.href); return false;">Virginia Tech's College of Engineering Featured Student</a></p>
+             <p class="lead"><a href="http://www.connectionnewspapers.com/news/2012/jul/09/i-had-learn-lot-my-own/" onclick="window.open(this.href); return false;">"I Had To Learn A Lot on My Own" Newspaper Article</a></p>
+           </div>
+         </div>
+         <div class="modal-footer">
+
+          <a type="button" class="btn btn-primary"href="resumes/joeResume.pdf" onclick="window.open(this.href); return false;"> My Resume »</a>
+        </div>
+
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div>
+</div>
+
+<!-- Shawn's Modal -->
+<div id="shawnModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title" id="myModalLabel" style="font-size:40px;">Shawn Amjad</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row featurette">
+          <div class="col-md-5">
+            <img src="img/shawnProf.jpg" class="img">
+          </div>   
+          <div class="col-md-7">
+           <h4 class="lead" style="font-size:30px;">About:</h4>
+           <p class="lead">I am Sophomore at Virginia Tech majoring in Computer Science. Really enjoy programming in general and in my spare time I like to work on my music and DJ various events.</p>
+         </div>
+       </div>
+       <div class="modal-footer">
+        <a role="button" class="btn btn-primary" href="resumes/shawnResume.pdf" onclick="window.open(this.href); return false;">My Resume »</a>
+      </div>
+
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div>
+</div>
+
+
+
+	<section class="section-details">
+			<div class="row featurette">
+				<div class="col-md-12" style="background:#484848">
+      				<p class="featurette" style="padding:1em; text-align: center; color: #2dc3b7">We are students from Virginia Tech and we will leave a mark on this society.</p>
+
+				      			      				<!-- STAU Group Pic -->
+					<span class="centerImage"><img src="img/STAU.jpg"/></span>
+					<BR>
+      			</div>
+			</div>	
+	</section>	
+	
+	<section class="contact">
+
+		<div class="container">
+			
+			<div class="row">
+				 <!-- START THE FEATURETTES -->
+  <div class="row featurette" style="color:black;">
+    <div class="col-md-7">
+      <p class="featurette" style="text-indent: 1em;" >Zawad <br>
+        <span class="text-muted" style="color:#fff; padding-left: 3em;">Chowdhury</span></p>
+        <hr class="featurette-divider">
+        <div class="col-md-6">
+          <p class="lead" style="margin-left: 3em;">
+            Email: <a href="mailto:zawad@vt.edu">zawad@vt.edu</a> <br>
+            Phone: <a href="tel:+1-703-869-5388">(703) 869-5388</a>
+          </p>
+        </div>
+        <div class="col-md-5">
+          <a class="btn btn-facebook" href="https://www.facebook.com/zawad.chowdhury.5" onclick="window.open(this.href); return false;"><i class="fa fa-facebook"></i></a>
+          <a class="btn btn-linkedin" href="http://www.linkedin.com/profile/view?id=231957254" onclick="window.open(this.href); return false;"><i class="fa fa-linkedin"></i></a>
+          <a class="btn btn-google-plus" href="https://plus.google.com/101360124177387900416/posts" onclick="window.open(this.href); return false;"><i class="fa fa-google-plus"></i></a>
+          <a class="btn btn-instagram" href="http://instagram.com/kin9_z" onclick="window.open(this.href); return false;"><i class="fa fa-camera-retro"></i></a>
+          <a class="btn btn-github" href="https://github.com/Zawad" onclick="window.open(this.href); return false;"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-responsive" alt= "Zawad" src="img/zc.jpg" style="padding-right: 3em;">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-5">
+        <img class="featurette-image img-responsive" alt="Vishal" src="img/vs.jpg" style="padding-left: 3em;">
+      </div>
+      <div class="col-md-7" style="color:black">
+        <p class="featurette">Vishal <br>
+         <span class="text-muted" style="color:#fff; padding-left: 2em;">Sangam</span></p>
+         <hr class="featurette-divider">
+         <div class="col-md-5">
+          <p class="lead" style="margin-left: 1em;">
+            Email: <a href="mailto:vsangam@vt.edu">vsangam@vt.edu</a> <br>
+            Phone: <a href="tel:+1-703-203-5937">(703) 203-5937</a>
+          </p>
+        </div>
+        <div class="col-md-5">
+          <a class="btn btn-facebook" href="https://www.facebook.com/vishal.sangam" onclick="window.open(this.href); return false;"><i class="fa fa-facebook"></i></a>
+          <a class="btn btn-linkedin" href="http://www.linkedin.com/profile/view?id=205679613" onclick="window.open(this.href); return false;"><i class="fa fa-linkedin"></i></a>
+          <a class="btn btn-google-plus" href="https://plus.google.com/110438396232092065273/posts" onclick="window.open(this.href); return false;"><i class="fa fa-google-plus"></i></a>
+          <a class="btn btn-instagram" href="http://instagram.com/voshizal" onclick="window.open(this.href); return false;"><i class="fa fa-camera-retro"></i></a>
+          <a class="btn btn-github" href="https://github.com/Voshizal" onclick="window.open(this.href); return false;"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" style="color:black;">
+      <div class="col-md-7">
+        <p class="featurette" style="text-indent: 1em;" >Joe <br>
+          <span class="text-muted" style="color:#fff; padding-left: 2em;">Fletcher</span></p>
+          <hr class="featurette-divider">
+          <div class="col-md-6">
+            <p class="lead" style="margin-left: 3em;">
+              Email: <a href="mailto:joevt@vt.edu">joevt@vt.edu</a> <br>
+              Phone: <a href="tel:+1-703-485-7174">(703) 485-7174</a>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <a class="btn btn-facebook" href="https://www.facebook.com/joe.fletcher.92" onclick="window.open(this.href); return false;"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-linkedin" href="http://www.linkedin.com/profile/view?id=206779335" onclick="window.open(this.href); return false;"><i class="fa fa-linkedin"></i></a>
+            <a class="btn btn-google-plus" href="https://plus.google.com/108307448266644894863/posts" onclick="window.open(this.href); return false;"><i class="fa fa-google-plus"></i></a>
+            <a class="btn btn-instagram" href="http://instagram.com/joefletcher22" onclick="window.open(this.href); return false;"><i class="fa fa-camera-retro"></i></a>
+            <a class="btn btn-github" href="https://github.com/jfletchvt" onclick="window.open(this.href); return false;"><i class="fa fa-github"></i></a>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" alt= "Joe" src="img/jf.jpg" style="padding-right: 3em;">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" alt="Shawn" src="img/sa.jpg" style="padding-left: 3em;">
+        </div>
+        <div class="col-md-7" style="color:black">
+          <p class="featurette">Shawn <br>
+           <span class="text-muted" style="color:#fff; padding-left: 2em;">Amjad</span></p>
+           <hr class="featurette-divider">
+           <div class="col-md-5">
+            <p class="lead" style="margin-left: 1em;">
+              Email: <a href="mailto:samja@vt.edu"> samja@vt.edu</a> <br>
+              Phone: <a href="tel:+1-703-407-7766">(703) 407-7766</a>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <a class="btn btn-facebook" href="https://www.facebook.com/Shawn.Amjad" onclick="window.open(this.href); return false;"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-linkedin" href="http://www.linkedin.com/profile/view?id=305503197" onclick="window.open(this.href); return false;"><i class="fa fa-linkedin"></i></a>
+            <a class="btn btn-google-plus" href="https://plus.google.com/106537395533631891281/posts" onclick="window.open(this.href); return false;"><i class="fa fa-google-plus"></i></a>
+            <a class="btn btn-instagram" href="http://instagram.com/shawn703" onclick="window.open(this.href); return false;"><i class="fa fa-camera-retro"></i></a>
+            <a class="btn btn-github" href="#"><i class="fa fa-github" onclick="window.open(this.href); return false;"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <hr class="featurette-divider">
+      <!-- /END THE FEATURETTES -->
+
+					
+			</div>
+
+		</div>
+
+	</section>
+
+	<footer>
+		
+		<div class="container">
+
+        <p style="text-align: center;"><a href="#">Back to top</a></p>
+        <p style="text-align: center;">© 2015 STAU, Inc.</p>
+
+		</div>
+
+	</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
